@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Sidebar, SidebarItem } from 'react-responsive-sidebar';
+import Dashboard from '../src/Component/Dashboard/Dashboard';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+const items = [
+  <SidebarItem >Tab Heading 1</SidebarItem>,
+  <SidebarItem >Tab Heading 2</SidebarItem>,
+  <SidebarItem >Tab Heading 3</SidebarItem>,
+  <SidebarItem >Tab Heading 4</SidebarItem>,
+  <SidebarItem >Logout</SidebarItem>,
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Sidebar content={items} background='white' color='black'>
+          <Dashboard />
+        </Sidebar>
     </div>
   );
 }

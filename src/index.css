@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.sideBarCss {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  overflow: hidden auto;
+  width: 300px;
+  background: white !important;
+  color: black !important;
+  transition: left 0.25s ease-in 0s;
+}

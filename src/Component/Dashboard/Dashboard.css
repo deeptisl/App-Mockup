@@ -1,0 +1,63 @@
+.NavBar{
+    background-color:royalblue !important;
+    height: 40px !important;
+    text-align: left !important;
+    color: white !important;
+}
+.photo {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+  }
+
+  .NavComponent{
+    margin-top: 5px;
+    float: right !important;
+    color: white;
+}
+
+.NavComponent1{
+    margin-top: 5px;
+    float: right;
+    height: 30px;
+    margin-left: 45%;
+    background-color: aliceblue;
+}
+.NavBar1{
+    background-color:white !important;
+    height: 50px !important;
+    text-align: left !important;
+    color: blue !important;
+}
+
+.innerClass{
+    padding:10px;
+}
+
+.NavBarFirst{
+    background-color:darkblue !important;
+    height: 40px !important;
+    padding: 5px;
+    text-align: left !important;
+    color: white !important;
+}
+
+.selected{
+    background-color: blue;
+    height: 100%;
+
+}
+
+.firstComp{
+    margin: 10px;
+    background-color: darkgray ;
+}
+.transportMode{
+    margin-left: 30% !important;
+}
+.containerStyle{
+    background-color: white !important;
+    border: 2px solid deepskyblue !important;
+}
